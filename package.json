@@ -1,5 +1,5 @@
 {
-  "name": "style-guide",
+  "name": "company-style-guide",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,6 @@
     "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
     "recharts": "^2.1.2",
-    "themes": "arron-taylor/themes#master",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
