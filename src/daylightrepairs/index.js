@@ -165,14 +165,14 @@ export const daylightrepairs_dark = {
 
 daylightrepairs.components = {
   MuiAppBar: {
-    styledOverrides: {
+    styleOverrides: {
       colorDefault: {
         backgroundColor: '#fff'
       }
     },
   },
   MuiCheckbox: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         color: daylightrepairs.palette.secondary.dark,
       },
@@ -184,7 +184,7 @@ daylightrepairs.components = {
     },
   },
   MuiRadio: {
-    styledOverrides: {
+    styleOverrides: {
       colorSecondary: {
         "&$checked": {
           color: daylightrepairs.palette.primary.main,
@@ -193,14 +193,14 @@ daylightrepairs.components = {
     }
   },
   MuiFab: {
-    styledOverrides: {
+    styleOverrides: {
       secondary: {
         color: daylightrepairs.palette.primary.contrastText
       }
     },
   },
   MuiSwitch: {
-    styledOverrides: {
+    styleOverrides: {
       track: {
         backgroundColor: '#6a6a6a',
       },
@@ -235,14 +235,14 @@ daylightrepairs.components = {
     },
   },
   MuiSelect: {
-    styledOverrides: {
+    styleOverrides: {
       icon: {
         color: daylightrepairs.palette.primary.main,
       }
     },
   },
   MuiInput: {
-    styledOverrides: {
+    styleOverrides: {
       underline: {
         '&:$before': {
           borderBottomColor: daylightrepairs.palette.primary.main,
@@ -256,7 +256,7 @@ daylightrepairs.components = {
     },
   },
   MuiInput: {
-    styledOverrides: {
+    styleOverrides: {
       underline: {
         '&:$before': {
           borderBottomColor: daylightrepairs.palette.primary.main
@@ -265,7 +265,7 @@ daylightrepairs.components = {
     },
   },
   MuiChip: {
-    styledOverrides: {
+    styleOverrides: {
       outlined: {
         borderColor: daylightrepairs.palette.text.primary,
         borderWidth: '2px',
@@ -328,7 +328,7 @@ daylightrepairs.components = {
     },
   },
   MuiTableCell: {
-    styledOverrides: {
+    styleOverrides: {
       head: {
         '& svg': {
           color: daylightrepairs.palette.primary.dark,
@@ -342,7 +342,7 @@ daylightrepairs.components = {
     },
   },
   MuiTableRow: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         "&$selected": {
           backgroundColor: '#eee',
@@ -359,21 +359,21 @@ daylightrepairs.components = {
     },
   },
   MuiBackdrop: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         backgroundColor: 'none',
       }
     },
   },
   MuiLinearProgress: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         backgroundColor: 'transparent'
       }
     },
   },
   MuiBadge: {
-    styledOverrides: {
+    styleOverrides: {
       colorSecondary: {
         backgroundColor: daylightrepairs.palette.primary.dark,
         color: daylightrepairs.palette.primary.contrastText,
@@ -381,14 +381,14 @@ daylightrepairs.components = {
     },
   },
   MuiPaper: {
-    styledOverrides: {
+    styleOverrides: {
       elevation3: {
         boxShadow: '0 0 5px rgb(1 1 1 / 25%)'
       }
     },
   },
   MuiContainer: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         border: '1px solid transparent',
         padding: '0 0 1rem 0rem'
@@ -396,7 +396,7 @@ daylightrepairs.components = {
     },
   },
   MuiFormHelperText: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         fontSize: '12px',
         contained: {
@@ -413,7 +413,7 @@ daylightrepairs.components = {
     },
   },
   MuiOutlinedInput: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         position: 'relative',
         fontFamily: 'Open Sans',
@@ -431,7 +431,7 @@ daylightrepairs.components = {
     },
   },
   MuiBreadcrumbs: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
       },
       ol: {
@@ -455,14 +455,14 @@ daylightrepairs.components = {
     },
   },
   MuiBox: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         marginTop: '100px',
       }
     },
   },
   MuiListItem: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         '&$selected': {
           backgroundColor: daylightrepairs.palette.primary.main,
@@ -484,14 +484,14 @@ daylightrepairs.components = {
     },
   },
   MuiListItemIcon: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         color: '#888'
       }
     },
   },
   MuiSnackbarContent: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         backgroundColor: daylightrepairs.palette.primary.dark
       },
@@ -506,7 +506,7 @@ daylightrepairs.components = {
     },
   },
   MuiButton: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         textTransform: 'capitalize',
       },
@@ -601,7 +601,7 @@ daylightrepairs.components = {
     }
   },
   MuiBottomNavigationAction: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         color: daylightrepairs.palette.text.secondary,
         '&$selected': {
@@ -621,7 +621,7 @@ daylightrepairs.components = {
 
 daylightrepairs_dark.components = {
   MuiCheckbox: {
-   styledOverrides: {
+   styleOverrides: {
     root: {
       color: daylightrepairs_dark.palette.primary.light,
     },
@@ -633,7 +633,7 @@ daylightrepairs_dark.components = {
    }
   },
   MuiRadio: {
-    styledOverrides: {
+    styleOverrides: {
       colorSecondary: {
         color: daylightrepairs_dark.palette.primary.light,
         opacity: .65,
@@ -649,7 +649,7 @@ daylightrepairs_dark.components = {
     }
  },
   MuiButton: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         textTransform: 'capitalize',
       },
@@ -751,7 +751,7 @@ daylightrepairs_dark.components = {
     }
   },
   MuiListItem: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         '&$selected': {
           backgroundColor: daylightrepairs_dark.palette.primary.light,
@@ -773,7 +773,7 @@ daylightrepairs_dark.components = {
     }
   },
   MuiFormLabel: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         color: daylightrepairs_dark.palette.text.primary,
         opacity: .75,
@@ -784,7 +784,7 @@ daylightrepairs_dark.components = {
     }
   },
   MuiFormHelperText: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         fontSize: '12px',
         color: daylightrepairs_dark.palette.text.primary,
@@ -802,14 +802,14 @@ daylightrepairs_dark.components = {
     }
   },
   MuiSelect: {
-    styledOverrides: {
+    styleOverrides: {
       icon: {
         color: daylightrepairs_dark.palette.primary.light,
       }
     }
   },
   MuiInput: {
-   styledOverrides: {
+   styleOverrides: {
     underline: {
       '&:$before': {
         borderBottomColor: daylightrepairs_dark.palette.primary.light,
@@ -823,7 +823,7 @@ daylightrepairs_dark.components = {
    }
   },
   MuiOutlinedInput: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         position: 'relative',
         fontFamily: 'Open Sans',
@@ -841,7 +841,7 @@ daylightrepairs_dark.components = {
     }
   },
   MuiSwitch: {
-    styledOverrides: {
+    styleOverrides: {
       track: {
         backgroundColor: '#6a6a6a',
       },
@@ -876,7 +876,7 @@ daylightrepairs_dark.components = {
     }
   },
   MuiTableCell: {
-    styledOverrides: {
+    styleOverrides: {
       head: {
         '& svg': {
           color: daylightrepairs_dark.palette.primary.light,
@@ -890,7 +890,7 @@ daylightrepairs_dark.components = {
     }
   },
   MuiSlider: {
-   styledOverrides: {
+   styleOverrides: {
     thumb: {
 
     },
@@ -903,7 +903,7 @@ daylightrepairs_dark.components = {
    }
   },
   MuiTableRow: {
-    styledOverrides: {
+    styleOverrides: {
       root: {
         "&$selected": {
           backgroundColor: '#222',
@@ -920,7 +920,7 @@ daylightrepairs_dark.components = {
     }
   },
   MuiBottomNavigationAction: {
-   styledOverrides: {
+   styleOverrides: {
     root: {
       color: daylightrepairs_dark.palette.text.secondary,
       '&$selected': {
@@ -936,7 +936,7 @@ daylightrepairs_dark.components = {
    }
   },
   MuiChip: {
-   styledOverrides: {
+   styleOverrides: {
     outlinedPrimary: {
       borderColor: daylightrepairs_dark.palette.primary.light,
       borderWidth: '2px',
@@ -968,7 +968,7 @@ daylightrepairs_dark.components = {
    }
   },
   MuiSnackbarContent: {
-   styledOverrides: {
+   styleOverrides: {
     root: {
       backgroundColor: daylightrepairs_dark.palette.primary.main,
       color: '#fff'
